@@ -60,7 +60,7 @@ export default function Hero() {
               rgba(0,0,0,0.78) 65%,
               rgba(0,0,0,0.98) 100%
             ),
-            url('https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1920&q=90')
+            url('/hero-real.jpg')
           `,
           backgroundSize: "cover",
           backgroundPosition: "center 40%",

@@ -20,7 +20,7 @@ export const WA_LINKS = {
 export const MAPS_URL =
   "https://www.google.com/maps/search/Pousada+JJ+Oliveira+dos+Brejinhos";
 
-export const INSTAGRAM_URL = "https://www.instagram.com/pousadajj";
+export const INSTAGRAM_URL = "https://www.instagram.com/pousadajjbrejinhos/";
 
 export const DEVELOPER_INSTAGRAM = "https://www.instagram.com/joaoflavio_00/";
 
@@ -64,8 +64,7 @@ export const ROOMS: Room[] = [
     name: "Quarto Standard",
     description:
       "Prático, limpo e confortável. Ar-condicionado, TV e Wi-Fi. Tudo que você precisa para descansar de verdade.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=600&q=80",
+    imageUrl: "/quarto-standard.jpg",
     imageAlt: "Quarto Standard Pousada JJ",
     tags: [
       { label: "Ar-condicionado" },
@@ -81,8 +80,7 @@ export const ROOMS: Room[] = [
     name: "Quarto Duplo",
     description:
       "Para casais ou viajantes que precisam de mais espaço. Duas camas, banheiro privativo e toda estrutura da casa.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1618773928121-c32242e63f39?w=600&q=80",
+    imageUrl: "/quarto-duplo.jpg",
     imageAlt: "Quarto Duplo Pousada JJ",
     tags: [
       { label: "Duas Camas" },
@@ -96,8 +94,7 @@ export const ROOMS: Room[] = [
     name: "Suíte Casal",
     description:
       "Nosso quarto premium. Cama de casal, banheiro espaçoso com chuveiro quente e o melhor custo-benefício da região.",
-    imageUrl:
-      "https://images.unsplash.com/photo-1590490360182-c33d57733427?w=600&q=80",
+    imageUrl: "/quarto-suite.jpg",
     imageAlt: "Suíte Pousada JJ",
     tags: [
       { label: "Cama Casal" },
