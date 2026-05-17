@@ -11,19 +11,6 @@ O projeto foi criado para atender uma necessidade real de negócio: modernizar a
 🔗 Projeto online:  
 https://pousada-jj.vercel.app/
 
----
-
-# 📸 Preview
-
-> Adicione screenshots do projeto aqui futuramente.
-
-Exemplo:
-
-```md
-![Preview do projeto](./public/preview.png)
-```
-
----
 
 # 📖 Sobre o projeto
 
@@ -172,11 +159,6 @@ Além do desenvolvimento técnico, também trabalhei aspectos relacionados a:
 # 👨‍💻 Autor
 
 Desenvolvido por **João Flávio**.
-
-- GitHub: https://github.com/JoaoFlavio0
-- Instagram: https://www.instagram.com/joaoflavio_00/
-
----
 
 # 📄 Licença
 
