@@ -43,8 +43,7 @@ export default function Hero() {
     <section
       id="inicio"
       ref={sectionRef}
-      className="relative min-h-screen flex items-end overflow-hidden"
-      style={{ paddingBottom: "8rem" }}
+      className="relative min-h-screen flex items-center md:items-end overflow-hidden pt-28 pb-16 md:pt-0 md:pb-32 px-5 md:px-10"
     >
       {/* ── Parallax background ── */}
       <motion.div
@@ -94,14 +93,14 @@ export default function Hero() {
 
       {/* ── Main content — fades out on scroll ── */}
       <motion.div
-        className="relative z-10 w-full max-w-[1160px] mx-auto"
-        style={{ opacity: fadeOut, x: "2.5rem" }}
+        className="relative z-10 w-full max-w-[1160px] mx-auto flex flex-col items-center md:items-start text-center md:text-left"
+        style={{ opacity: fadeOut }}
       >
-        <motion.div style={{ y: textY }}>
+        <motion.div style={{ y: textY }} className="w-full flex flex-col items-center md:items-start">
 
           {/* ── Reputation Badge ── */}
           <motion.div
-            className="mb-10"
+            className="mb-8 md:mb-10 flex justify-center md:justify-start"
             initial="hidden" animate="visible"
             variants={STAGGER.badge}
           >
@@ -119,7 +118,7 @@ export default function Hero() {
 
           {/* ── Display Title ── */}
           <motion.h1
-            className="display-hero"
+            className="display-hero text-center md:text-left"
             style={{ maxWidth: 860 }}
             initial="hidden" animate="visible"
             variants={STAGGER.title}
@@ -133,19 +132,20 @@ export default function Hero() {
 
           {/* ── Red hairline divider ── */}
           <motion.div
-            style={{ width: 40, height: 1, background: "#CC0000", margin: "2rem 0", display: "block" }}
+            className="my-6 md:my-8"
+            style={{ width: 40, height: 1, background: "#CC0000", display: "block" }}
             initial="hidden" animate="visible"
             variants={STAGGER.divider}
           />
 
           {/* ── Subheading ── */}
           <motion.p
-            className="section-sub"
+            className="section-sub text-center md:text-left"
             style={{
-              marginBottom: "3rem",
+              marginBottom: "2.5rem",
               maxWidth: 440,
               color: "rgba(255,255,255,0.55)",
-              lineHeight: 2,
+              lineHeight: 1.8,
               letterSpacing: "0.02em",
             }}
             initial="hidden" animate="visible"
@@ -157,7 +157,7 @@ export default function Hero() {
 
           {/* ── CTA Row ── */}
           <motion.div
-            className="hero-cta-row flex gap-4 flex-wrap items-center"
+            className="hero-cta-row flex gap-4 flex-wrap items-center justify-center md:justify-start w-full md:w-auto"
             initial="hidden" animate="visible"
             variants={STAGGER.cta}
           >

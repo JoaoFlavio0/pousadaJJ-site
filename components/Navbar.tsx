@@ -53,10 +53,9 @@ export default function Navbar() {
       {/* ── Fixed navbar ── */}
       <nav
         id="navbar"
-        className="fixed top-0 left-0 right-0 z-[1000] flex items-center justify-between transition-all duration-500"
+        className="fixed top-0 left-0 right-0 z-[1000] flex items-center justify-between transition-all duration-500 px-5 md:px-10"
         style={{
           height: 70,
-          padding: "0 2.5rem",
           background: scrolled ? "rgba(0,0,0,0.92)" : "transparent",
           backdropFilter: scrolled ? "blur(20px)" : "none",
           WebkitBackdropFilter: scrolled ? "blur(20px)" : "none",
