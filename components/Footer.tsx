@@ -150,7 +150,7 @@ export default function Footer() {
             </div>
             <div className="dev-sig">
               Site feito por{" "}
-              <a href={DEVELOPER_INSTAGRAM} target="_blank" rel="noopener noreferrer">João Flávio</a>
+              <a href={DEVELOPER_INSTAGRAM} target="_blank" rel="noopener noreferrer">Enzo Gabriel</a>
             </div>
           </div>
         </div>

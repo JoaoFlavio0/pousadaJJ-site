@@ -22,7 +22,7 @@ export const MAPS_URL =
 
 export const INSTAGRAM_URL = "https://www.instagram.com/pousadajjbrejinhos/";
 
-export const DEVELOPER_INSTAGRAM = "https://www.instagram.com/joaoflavio_00/";
+export const DEVELOPER_INSTAGRAM = "https://www.instagram.com/kogumo____/";
 
 // ── Navigation Links ──────────────────────────────────
 export interface NavLink {
